@@ -10,6 +10,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
+#include <signal.h>
 
 
 static inline void _assert_true(bool condition, const char * expr, const char * message, const char * file, const char * func, int lineno) {
